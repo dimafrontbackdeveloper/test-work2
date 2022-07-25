@@ -1,0 +1,54 @@
+.getRequest {
+   h2 {
+      margin-bottom: 50px;
+   }
+
+   // .getRequest__row
+
+   &__row {
+      gap: 30px;
+      margin-bottom: 50px;
+
+      @media(max-width:768px){
+      gap: 16px;
+
+      }
+
+      @media(max-width:360px){
+      gap: 20px;
+
+      }
+   }
+
+   // .getRequest__column
+
+   &__column {
+      background: #FFFFFF;
+      border-radius: 10px;
+      padding: 20px;
+
+      .avatar {
+         width: 70px;
+         height: 70px;
+         margin: 0 auto;
+      }
+
+      p {
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+
+         &:nth-child(1) {
+            margin-bottom: 10px;
+         }
+
+         &:nth-child(2) {
+            margin-bottom: 20px;
+         }
+      }
+   }
+
+   button {
+      width: 120px;
+   }
+}

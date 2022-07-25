@@ -1,0 +1,13 @@
+@import './../../scss/variables';
+
+.btn{
+   border-radius: 80px;
+   width: 100px;
+   height: 35px;
+   border: none;
+   cursor: pointer;
+   transition:  0.2s;
+   font-size: 16px;
+   line-height: 26px;
+   font-family: 'Nunito';
+}

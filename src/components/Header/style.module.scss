@@ -1,0 +1,25 @@
+.header {
+   background-color: #fff;
+   padding: 13px 0px;
+
+   // .header__row
+
+   &__row {
+      .logo {
+         margin-right: 14px;
+      }
+   }
+
+   // .header__buttons
+
+   &__buttons {
+      display: flex;
+
+      button {
+
+         &:first-child {
+            margin-right: 10px;
+         }
+      }
+   }
+}

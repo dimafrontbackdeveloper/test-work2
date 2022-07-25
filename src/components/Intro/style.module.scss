@@ -1,0 +1,40 @@
+.intro {
+   color: #fff;
+
+   &__container {
+      max-width: 1170px;
+      margin: 0 auto;
+   }
+
+   // .intro__content
+
+   &__content {
+      padding: 164px 0px;
+      background-image: url('./../../images/intro.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media(max-width:768px){
+         padding: 90px 0px;
+      }
+
+      @media (max-width:360px){
+         padding: 40px 0px 70px 0px;
+      }
+   }
+
+   // .intro__block
+
+   &__block {
+      max-width: 380px;
+      margin: 0 auto;
+
+      h1 {
+         margin-bottom: 21px;
+      }
+
+      p {
+         margin-bottom: 32px;
+      }
+   }
+}
